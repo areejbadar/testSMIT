@@ -1,0 +1,239 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+
+
+/* navbar */
+
+
+/* hero */
+.header{
+    display: flex;
+    
+}
+.container{
+    width: 40%;
+    margin-top: 5rem;
+}
+h1 span{
+    color: green;
+    margin:5rem 0;
+    
+}
+h3 span{
+    color: blue;
+    margin: 5rem 0;
+    padding: 5rem 0
+}
+p {
+    font-weight: 400;
+    padding: 1rem 0
+}
+.container-pic{
+    width: 40%;
+}
+/* main */
+.main{ 
+    float:inline-end;
+    background-color:rgba(182,239,73,.2);
+}
+.buttons{
+ float: right;
+ margin:2rem 20rem ;
+ padding:0 3rem ;
+ border-radius: 2px solid white;
+}
+form .container-fluid{
+    background-color:rgba(182,239,73,.2);
+}
+.search{
+    display: inline-flex;
+width: 25rem;
+background-color:rgba(182,239,73,.2)
+
+
+}
+.donate-btn{
+    margin:0 25rem
+}
+/* container-image */
+.container-image{
+    margin:1rem 5rem
+}
+/* doing */
+.doing{
+    margin:1rem 5rem
+} 
+.doing .h1{
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0
+}
+.doing-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    margin: 2rem;
+    padding:2rem
+}
+.doing-container  div1 {
+    padding:2.2rem;
+    width:10rem;
+    
+    background-color:rgba(182,239,73,.2)
+    }
+    
+.doing-container  div2 {
+    background-color:rgba(182,239,73,.2)
+    ; width:10rem;
+    padding:2.2rem;
+}
+.doing-container  div3 {
+    background-color:rgba(182,239,73,.2)
+    ; width:10rem;
+    padding:2.2rem;
+}
+.doing-container  div4 {
+    background-color:rgba(182,239,73,.2)
+    ; width:10rem;
+    padding:2.2rem;
+}
+.doing-container  div5 {
+    background-color:rgba(182,239,73,.2)
+    ; width:10rem;
+    padding:2.2rem;
+}
+.doing-container  div6 {
+    background-color:rgba(182,239,73,.2)
+    ; width:10rem;
+    padding:2.2rem;
+}
+
+/* card */
+.cards{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    height:500px;
+    width:100%;
+    z-index: 2;
+    }
+.card{
+
+    z-index: 2;
+    width: 22rem;
+    margin: 0 2rem
+
+}
+.card-btn{
+    background-color: rgba(131, 197, 8, 0.514);
+    width: 100%;
+    border:2px solid rgba(131, 197, 8, 0.514);
+}
+
+/* project */
+.project{
+    display:flex;
+    justify-content: space-between
+     ;height: 65vh;
+     margin: 2rem 0
+}
+.project-image{
+    
+}
+.content-project .h3{
+    display: flex;
+    justify-content: left;
+
+
+
+}
+.container-project{
+    height:60vh;
+
+   
+}
+.container-project p{
+    margin:0;
+    padding: 0;
+}
+
+    .p{
+        display: inline-flex;
+        justify-content: space-between;
+    }
+/* service_counter */
+.service_counter{
+    background-color: rgb(75, 91, 233);
+    display: flex;
+    width: 90%;
+    justify-content:space-between;
+    
+    margin: 0 4rem
+}
+.service{
+    
+    padding:3rem 3rem;
+    margin: 1rem 2rem
+    
+    
+}
+.service1{
+    
+   background-color: white;
+   border-radius: 10rem;
+   padding:2rem
+}
+.service2{
+    background-color: white;
+    border-radius: 10rem;
+    padding: 2rem
+}
+.service3{
+    background-color: white;
+    border-radius: 10rem;
+    padding:2rem
+}
+.service4{
+    background-color: white;
+    border-radius: 10rem;
+    padding:2rem
+}
+.service-content h4 p{
+    margin:0 2rem;
+    color:white;
+    margin: 1rem;
+    justify-content: space-between;
+}
+/* our */
+
+.our > p{
+    color:green;
+    display: flex;
+    justify-content: center;
+    font-weight: 300px;
+    margin: 1rem
+}
+.our h2{display:flex;
+    justify-content: center;
+}
+
+/* profile */
+
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.profile-head{
+    display: flex;
+    justify-content: center;
+}
+    /* footer */
+.footer{
+    background-color: rgba(42, 48, 48,0.5);
+}
+.service-content{
+    color: white;
+}
